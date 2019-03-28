@@ -792,6 +792,7 @@ function RecordRTC(mediaStream, config) {
 }
 
 RecordRTC.version = '5.5.4';
+RecordRTC.getSeekableBlob = getSeekableBlob;
 
 if (typeof module !== 'undefined' /* && !!module.exports*/ ) {
     module.exports = RecordRTC;
